@@ -100,12 +100,6 @@ This is a portfolio website for **N.O.M.A.D Studio**, a fictional independent ga
   - Local storage integration
   - Real-time statistics
 
-## 📝 Notes
-- All games are client-side only
-- Contact form doesn't have backend integration (demonstration only)
-- Code includes accessibility features (ARIA labels, focus states)
-- Files named `featured-prjoects.html` contains a typo ("prjoects" instead of "projects")
-
 ## 📄 License
 Copyright 2025 RevoU. All rights reserved.
 
