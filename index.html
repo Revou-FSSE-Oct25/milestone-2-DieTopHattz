@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamil Johanes Paransa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./styles/styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="custom-gradient text-white overflow-x-hidden roboto-500">
+  <!-- Mobile Navbar Checkbox -->
+  <input type="checkbox" id="menuToggle" class="hidden">
+
+  <!-- Section Container -->
+  <section class="min-h-screen relative">
+    <!-- Header Navbar -->
+    <nav class="flex justify-between items-center py-5 px-8 md:px-12 lg:px-16 relative z-50">
+      <div class="flex flex-col">
+        <p class = "text-[24px] font-black tracking-[3px] text-[#e74c3c]">N.O.M.A.D</p>
+        <p class = "text-[11px] text-[#bdc3c7] tracking-[1px] mt-[2px]">Studio</p>
+      </div>
+      
+      <ul class="hidden md:flex list-none space-x-8 lg:space-x-10">
+        <li><a href="./index.html" class="text-gray-300 no-underline text-[15px] font-medium transition-all duration-300 relative hover:text-red-500 group py-2">Home
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full mt-1"></span>
+        </a></li>
+        <li><a href="./pages/featured-prjoects.html" class="text-gray-300 no-underline text-[15px] font-medium transition-all duration-300 relative hover:text-red-500 group py-2">Featured Games
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full mt-1"></span>
+        </a></li>
+        <li><a href="./pages/forms.html" class="text-gray-300 no-underline text-[15px] font-medium transition-all duration-300 relative hover:text-red-500 group py-2">Contact Us!<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full mt-1"></span></a></li>
+      </ul>
+
+      <!-- Mobile Navbar Toggle -->
+      <label for="menuToggle" class="md:hidden flex flex-col bg-transparent border-none cursor-pointer p-2 w-8 h-8 justify-center items-center" aria-label="Toggle menu">
+        <span class="w-6 h-0.5 bg-white my-0.5 rounded transition-all duration-300"></span>
+        <span class="w-6 h-0.5 bg-white my-0.5 rounded transition-all duration-300"></span>
+        <span class="w-6 h-0.5 bg-white my-0.5 rounded transition-all duration-300"></span>
+      </label>
+    </nav>
+
+    <!-- Content -->
+    <main class="px-[50px] min-h-[calc(100vh-80px)] flex flex-col justify-between">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-[50px] items-center flex-1 py-[50px]">
+            <!-- Content Kiri -->
+            <div class="flex flex-col gap-[30px] max-w-lg">
+                <h1 class="text-[4.5rem] font-black leading-[0.9] tracking-[3px]">
+                    N.O.M.A.D<br>Studio
+                </h1>
+                <p class="text-[16px] leading-[1.6] text-[#cccccc] text-justify">
+                    N.O.M.A.D Studio is a passionate, small independent game development collective where creativity and vision drive every project. Operating as a tight-knit team of versatile developers, artists, and storytellers, they embrace their size as a strength, allowing for nimble innovation and a deeply personal touch in their work. True to their name, they adopt a nomadic spirit—unbound by industry trends and agile enough to explore bold, original concepts in game design and narrative. Specializing in crafting intimate, atmospheric experiences, they focus on rich world-building and emotional depth, proving that a small, dedicated studio can create worlds that feel vast and memorable for their players
+                </p>
+            </div>
+            
+            <!-- Content Kanan -->
+            <div class="flex flex-col gap-[40px] pl-[20px]">
+
+              <!--Number Guessing Game-->
+              <div class="border-b border-white/30 py-[20px]">
+                <div class="flex items-start justify-between">
+                <!-- Game info -->
+                <div class="flex-1">
+                  <h3 class="text-[18px] font-bold mb-[10px] tracking-[1px]">GAME NAME</h3>
+                  <p class="text-[14px] text-[#cccccc] leading-[1.5]">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                </div>
+        
+              <!-- Simple text link button -->
+                <a href="./pages/number-guessing-game.html" 
+                    class="ml-6 self-center px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium rounded transition-colors duration-300">
+                      Play
+                </a>
+                </div>
+              </div>
+                
+              <!--Rock Paper Scissor-->
+              <div class="border-b border-white/30 py-[20px]">
+                <div class="flex items-start justify-between">
+                <!-- Game info -->
+                <div class="flex-1">
+                  <h3 class="text-[18px] font-bold mb-[10px] tracking-[1px]">GAME NAME</h3>
+                  <p class="text-[14px] text-[#cccccc] leading-[1.5]">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                </div>
+        
+              <!-- Simple text link button -->
+                <a href="./pages/rock-paper-scissor.html" 
+                    class="ml-6 self-center px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium rounded transition-colors duration-300">
+                      Play
+                </a>
+                </div>
+              </div>
+
+
+              <!--Clicker-->
+              <div class="border-b border-white/30 py-[20px]">
+                <div class="flex items-start justify-between">
+                <!-- Game info -->
+                <div class="flex-1">
+                  <h3 class="text-[18px] font-bold mb-[10px] tracking-[1px]">GAME NAME</h3>
+                  <p class="text-[14px] text-[#cccccc] leading-[1.5]">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                </div>
+        
+              <!-- Simple text link button -->
+                <a href="./pages/clicker.html" 
+                    class="ml-6 self-center px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium rounded transition-colors duration-300">
+                      Play
+                </a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+  </section>
+
+  <!-- Slide Out Menu -->
+  <aside class="slide-menu fixed top-0 -right-full w-80 md:w-96 h-screen bg-gray-800 shadow-2xl transition-all duration-500 ease-in-out z-[1001] flex flex-col">
+    <div class="flex justify-between items-center p-6 bg-gray-900 border-b border-gray-700">
+      <div class="menu-logo">
+        <h2 class="text-white text-xl font-semibold">N.O.M.A.D Studio</h2>
+      </div>
+      <!-- Close Mobile Navbar -->
+      <label for="menuToggle" class="close-menu bg-transparent border-none text-white text-2xl cursor-pointer w-10 h-10 flex items-center justify-center rounded-full transition-colors duration-300 hover:bg-white/10" aria-label="Close menu">
+        <span>&times;</span>
+      </label>
+    </div>
+    
+    <nav class="mobile-nav flex flex-col flex-1 py-4">
+      <label for="menuToggle" class="block cursor-pointer">
+        <a href="./index.html" class="mobile-nav-link block no-underline text-gray-200 py-4 px-6 border-b border-gray-700 transition-all duration-300 font-medium hover:bg-gray-700 hover:text-blue-400">Home</a>
+      </label>
+      <label for="menuToggle" class="block cursor-pointer">
+        <a href="./pages/featured-prjoects.html" class="mobile-nav-link block no-underline text-gray-200 py-4 px-6 border-b border-gray-700 transition-all duration-300 font-medium hover:bg-gray-700 hover:text-blue-400">Featured Games</a>
+      </label>
+      <label for="menuToggle" class="block cursor-pointer">
+        <a href="./pages/forms.html" class="mobile-nav-link block no-underline text-gray-200 py-4 px-6 border-b border-gray-700 transition-all duration-300 font-medium hover:bg-gray-700 hover:text-blue-400">Contact Us!</a>
+      </label>
+    </nav>
+    
+    <div class="p-6 bg-gray-900 border-t border-gray-700 text-center">
+      <p class="text-gray-400 text-sm">&copy; 2025 RevoU. All rights reserved.</p>
+    </div>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer class="site-footer bg-gray-900 text-white py-12 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div class="footer-section">
+          <h3 class="text-xl font-bold mb-4 tracking-wider">My Profile</h3>
+          <p class="text-gray-300 text-sm leading-relaxed max-w-xs">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="text-xl font-bold mb-4 tracking-wider">Contact Info</h3>
+          <div class="space-y-3 text-sm text-gray-300">
+            <div class="flex items-start gap-3">
+              <i class="fa-solid fa-location-dot text-purple-300 mt-1 flex-shrink-0"></i>
+              <span>123 Anywhere St., Anj City, ST 12345</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-phone text-purple-300 flex-shrink-0"></i>
+              <span>+123-456-7890</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-envelope text-purple-300 flex-shrink-0"></i>
+              <a href="mailto:hello@reallygreatsite.com" class="hover:text-purple-300 transition-colors">
+                hello@reallygreatsite.com
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="text-xl font-bold mb-4 tracking-wider">Follow My Social Media</h3>
+          <div class="flex gap-4">
+            <a href="https://www.linkedin.com/in/kamil-johanes-paransa-a7b98a264/" class="bg-gray-700 hover:bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/DieTopHattz/" class="bg-gray-700 hover:bg-blue-800 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 pt-6 text-center">
+        <p class="text-gray-400 text-sm">&copy; 2025 RevoU. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Overlay -->
+  <label for="menuToggle" class="menu-overlay fixed top-0 left-0 w-full h-full bg-black/50 opacity-0 invisible transition-all duration-300 z-[1000] backdrop-blur-sm cursor-pointer"></label>
+</body>
+</html>
