@@ -1,20 +1,34 @@
 ## 🏗️ Project Structure
 
 project-root/
-├── index.html # Homepage
+
+├── index.html
+
 ├── pages/
+
 │ ├── featured-prjoects.html # Games gallery
-│ ├── forms.html # Contact form
+
+│ ├── forms.html 
+
 │ ├── number-guessing-game.html
+
 │ ├── rock-paper-scissor.html
+
 │ └── clicker.html
+
 ├── scripts/
+
 │ ├── numberGuessingGame.js
+
 │ ├── rockPaperScissors.js
+
 │ └── clicker.js
+
 ├── styles/
+
 │ └── styles.css
-└── assets/ # (Optional) For images/icons
+
+└── assets/ 
 
 
 # N.O.M.A.D Studio - Web Game Portfolio
