@@ -1,96 +1,120 @@
-Folder Structuring
+## 🏗️ Project Structure
 
-milestone-1-DieTopHattz
-
-
-
-├── index.html                 
-
-├── pages
-
-│ ├── featured-projects.html 
-
-│ └── forms.html            
-
-├── styles
-
-│ └── styles.css            
-
-├── assets
-
-│ └── images/
-
-│     └── Kamil.jpg         
-
-└── README.md
+project-root/
+├── index.html # Homepage
+├── pages/
+│ ├── featured-prjoects.html # Games gallery
+│ ├── forms.html # Contact form
+│ ├── number-guessing-game.html
+│ ├── rock-paper-scissor.html
+│ └── clicker.html
+├── scripts/
+│ ├── numberGuessingGame.js
+│ ├── rockPaperScissors.js
+│ └── clicker.js
+├── styles/
+│ └── styles.css
+└── assets/ # (Optional) For images/icons
 
 
+# N.O.M.A.D Studio - Web Game Portfolio
 
-## 🚀 Features
+## 📁 Project Overview
+This is a portfolio website for **N.O.M.A.D Studio**, a fictional independent game development collective. The site showcases three interactive web-based games with a modern, responsive design.
 
-### Core Functionality
-- **Responsive Design**: Fully mobile-friendly with Tailwind CSS
+## 🎮 Featured Games
+1. **Number Guessing Game** - Puzzle game where players guess a number between 1-100
+2. **Rock Paper Scissors** - Classic strategy game against the computer
+3. **Cookie Clicker** - Incremental clicking game with upgrades
+
+
+
+## 🛠️ Technologies Used
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: Tailwind CSS (CDN) + Custom CSS
+- **Icons**: Font Awesome 6.5.2
+- **Font**: Google Fonts (Roboto)
+- **Gradients**: Custom CSS gradients with purple/pink theme
+
+## ✨ Key Features
+- **Responsive Design**: Works on mobile, tablet, and desktop
+- **Interactive Games**: Three fully functional JavaScript games
 - **Mobile Navigation**: Slide-out menu with smooth animations
-- **Gradient Backgrounds**: Custom CSS gradients throughout
-- **Font Awesome Icons**: Comprehensive icon library integration
-- **Google Fonts**: Roboto font family for typography
+- **Form Validation**: Contact form with input validation
+- **Game State Management**: Score tracking and local storage for high scores
+- **Modern UI**: Gradient backgrounds, hover effects, and smooth transitions
 
-### Pages Overview
+## 🎯 Game Details
 
-#### 1. Homepage (`index.html`)
-- Hero section with profile image and introduction
-- Responsive grid layout
-- Professional about me section
-- Mobile-optimized navigation
+### 1. Number Guessing Game
+- **Objective**: Guess a random number between 1-100
+- **Features**: 
+  - 10 attempts maximum
+  - Feedback for high/low guesses
+  - Previous guesses tracking
+  - Win/lose conditions
 
-#### 2. Featured Projects (`pages/featured-projects.html`)
-- Project showcase with categorized display
-- Civil Engineering and Software Engineering projects
-- Interactive project cards with hover effects
-- Milestones statistics section
-- Responsive table-like layout using CSS Grid
+### 2. Rock Paper Scissors
+- **Objective**: Beat the computer in best-of-3 rounds
+- **Features**:
+  - Score tracking
+  - Round history
+  - Choice animations
+  - Game over screen
 
-#### 3. Contact Form (`pages/forms.html`)
-- Multi-section contact form
-- Personal information fields with validation
-- Responsive form layout
-- Additional contact information cards
-- Form reset and submit functionality
+### 3. Cookie Clicker
+- **Objective**: Click as many times as possible in 10 seconds
+- **Features**:
+  - Real-time CPS (clicks per second) calculation
+  - Local storage for best score
+  - Visual feedback on clicks
 
-## 🛠 Technologies Used
-
-- **HTML5**: Semantic markup
-- **Tailwind CSS**: Utility-first CSS framework
-- **Custom CSS**: Animations and gradients
-- **Font Awesome 6.5.2**: Icons
-- **Google Fonts**: Roboto typography
-- **Pure CSS**: Mobile menu toggle system
-
-## 🎨 Design Features
-
-### Color Scheme
-- Primary: Cyan (#4FC1E9) to Blue gradient
-- Secondary: Purple shades (#4b0082, #da70d6)
-- Background: Dark gradient theme
-- Accent: Red (#e74c3c) for highlights
-
-### Interactive Elements
-- Hover animations on navigation links
-- Smooth transitions throughout
-- Mobile-friendly hamburger menu
-- Backdrop blur effects
-- Gradient borders and shadows
+## 🚀 How to Run
+1. Clone/download the project files
+2. Ensure all file paths are maintained (HTML files reference `../styles/styles.css` and `../scripts/`)
+3. Open `index.html` in any modern web browser
+4. No server or build process required
 
 ## 📱 Responsive Breakpoints
+- **Mobile**: `< 768px` - Hamburger menu, single-column layout
+- **Tablet**: `768px - 1024px` - Two-column layouts
+- **Desktop**: `> 1024px` - Full navigation, three-column grids
 
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px  
-- **Desktop**: > 1024px
+## 🎨 Design System
+- **Primary Colors**: Purple (#4b0082), Pink (#da70d6), Red (#e74c3c)
+- **Gradients**: Dark purple to pink background
+- **Typography**: Roboto font (500 weight)
+- **Spacing**: Consistent padding/margins using Tailwind utilities
 
-## 🔧 Custom CSS Features
+## 🔧 JavaScript Features
+- **Rock Paper Scissors**: 
+  - Random computer choice generation
+  - Game logic with win/draw/loss conditions
+  - DOM manipulation for dynamic updates
+- **Number Guessing**:
+  - Input validation
+  - Game state management
+  - Feedback system
+- **Clicker Game**:
+  - Timer functionality
+  - Local storage integration
+  - Real-time statistics
 
-### Gradient Background
-```css
-.custom-gradient {
-  background: linear-gradient(135deg, #111 0%, #4b0082 50%, #da70d6 100%);
-}
+## 📝 Notes
+- All games are client-side only
+- Contact form doesn't have backend integration (demonstration only)
+- Code includes accessibility features (ARIA labels, focus states)
+- Files named `featured-prjoects.html` contains a typo ("prjoects" instead of "projects")
+
+## 📄 License
+Copyright 2025 RevoU. All rights reserved.
+
+## 👤 Author
+**Kamil Johanes Paransa**
+- LinkedIn: https://www.linkedin.com/in/kamil-johanes-paransa-a7b98a264/
+- GitHub: https://github.com/DieTopHattz/
+
+---
+
+*This portfolio demonstrates front-end development skills including HTML/CSS/JavaScript, responsive design, and interactive game development.*
+
